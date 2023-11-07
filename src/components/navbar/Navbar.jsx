@@ -1,0 +1,23 @@
+import './navbar.scss'
+import React from 'react'
+import { motion } from 'framer-motion'
+import Sidebar from '../sidebar/Sidebar'
+function Navbar() {
+  return (
+    <div className='navbar'>
+        <Sidebar/>
+        <div className='wrapper'>
+            <motion.span initial={{opacity:0, scale:0.5}} animate={{opacity:1, scale:1.5}} transition={{duration:0.5}}>Niladri Howladar</motion.span>
+            <div className='social'>
+                <motion.a initial={{opacity:0, scale:0.5}} animate={{opacity:1, scale:1}} transition={{duration:0.5}} href='#'><img src='/facebook.png'/></motion.a>
+                <motion.a initial={{opacity:0, scale:0.5}} animate={{opacity:1, scale:1}} transition={{duration:0.5}} href='#'><img src='/git.png'/></motion.a>
+                <motion.a initial={{opacity:0, scale:0.5}} animate={{opacity:1, scale:1}} transition={{duration:0.5}} href='#'><img src='/twitter.png'/></motion.a>
+                <motion.a initial={{opacity:0, scale:0.5}} animate={{opacity:1, scale:1}} transition={{duration:0.5}} href='#'><img src='/instagram.png'/></motion.a>
+
+            </div>
+        </div>
+    </div>
+  )
+}
+
+export default Navbar
