@@ -33,7 +33,6 @@ const items = [
   "What I Know?",
   "Portfolio",
   "Contact",
-  "About"
 ];
 
 function Links() {

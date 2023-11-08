@@ -44,21 +44,21 @@ function Whatiknow() {
         <motion.div className="box" whileHover={{ background: "lightgray", color: "black" }}>
           <h2>HTML/CSS/JS</h2>
           <p>With expertise in HTML, CSS, and JavaScript, I create visually appealing and highly functional websites. My skills bring creativity and interactivity to the digital world, ensuring memorable online experiences.</p>
-          <button>Go</button>
+          <button href='https://github.com/CraZyphr/Virtual-Drum-Kit' >GO!</button>
           </motion.div>
           <motion.div className="box"whileHover={{background:"lightgray",color:"black"}}>
           <h2>React JS/ThreeJS</h2>
           <p>Proficient in React JS and ThreeJS, I leverage cutting-edge technologies to craft immersive and interactive web applications, enhancing user experiences through dynamic, visually stunning design.</p>
-          <button>Go</button>
+          <button href='https://github.com/CraZyphr/Zetflix-A-Netflix-Clone'>GO!</button>
           </motion.div>
           <motion.div className="box"whileHover={{background:"lightgray",color:"black"}}>
           <h2>NodeJS/GitHub</h2>
           <p>Skilled in NodeJS and proficient in GitHub, I specialize in server-side development and version control, contributing to robust, collaborative software projects and building scalable, efficient web applications.</p>
-          <button>Go</button>
+          <button  href='https://github.com/CraZyphr/URL-to-QR-Converter'>GO!</button>
           </motion.div><motion.div className="box"whileHover={{background:"lightgray",color:"black"}}>
           <h2>MongoDB/ExpressJS</h2>
           <p>Experienced in MongoDB and ExpressJS, I am good at database management and server-side development. My expertise ensures efficient, data-driven web applications that deliver seamless user experiences.</p>
-          <button>Go</button>
+          <button  href='https://github.com/CraZyphr/Zyphr-Estate'>GO!</button>
           </motion.div>
       </motion.div>
     </motion.div>
