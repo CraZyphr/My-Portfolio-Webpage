@@ -41,7 +41,6 @@ const sliderVariants = {
 };
 
 function Hero() {
-  // Add a ref to the .input element
   const textInputRef = useRef(null);
 
   useEffect(() => {

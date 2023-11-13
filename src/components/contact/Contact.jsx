@@ -30,7 +30,8 @@ function Contact() {
     const sendEmail = (e) => {
         e.preventDefault();
         
-             emailjs.sendForm('service_1v8oqmc', 'template_0dw7cmy', formRef.current, 'b56f5uDrnZXB6HvWa')
+        emailjs.sendForm('service_1v8oqmc', 'template_zo4lkhz', formRef.current, 'b56f5uDrnZXB6HvWa')
+
             .then((result) => {
                 setSuccess(true);
             })
@@ -38,6 +39,7 @@ function Contact() {
                 console.error('Email sending error:', error);
                 setError(true);
             });
+            
     };
 
     return (
