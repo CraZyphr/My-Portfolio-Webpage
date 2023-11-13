@@ -1,7 +1,7 @@
 import './hero.scss';
 import { motion } from 'framer-motion';
-import React, { useEffect, useRef } from 'react'; // Import React and other necessary dependencies
-import Typed from 'typed.js'; // Import Typed.js
+import React, { useEffect, useRef } from 'react';
+import Typed from 'typed.js';
 
 const textVariants = {
   initial: {
