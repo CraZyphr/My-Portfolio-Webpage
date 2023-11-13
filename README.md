@@ -30,7 +30,7 @@ Follow these steps to set up the project locally:
 1. Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/portfolio.git](https://github.com/CraZyphr/My-Portfolio-Webpage/tree/main
+git clone https://github.com/CraZyphr/My-Portfolio-Webpage/tree/main
 ```
 
 2. Navigate to the project directory:
