@@ -18,7 +18,6 @@ This portfolio website is a showcase of my work, skills, and projects. It is bui
 
 ## Features
 
-- Responsive design for various devices.
 - Smooth animations powered by Framer Motion.
 - Contact form with Email.js integration for easy communication.
 - 3D graphics and interactive elements created using Three.js.
@@ -31,7 +30,7 @@ Follow these steps to set up the project locally:
 1. Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/portfolio.git
+git clone https://github.com/your-username/portfolio.git](https://github.com/CraZyphr/My-Portfolio-Webpage/tree/main
 ```
 
 2. Navigate to the project directory:
